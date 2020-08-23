@@ -28,9 +28,30 @@ namespace AjaxAspnetMVC.Controllers
             },
             new Employee()
             {
-                ID = 2,
+                ID = 3,
                 FullName = "Hoàng Chang",
                Salary = 12000,
+               Status = true
+            },
+            new Employee()
+            {
+                ID = 4,
+                FullName = "Thu Uyên",
+               Salary = 4000,
+               Status = true
+            },
+            new Employee()
+            {
+                ID = 5,
+                FullName = "Văn Lọk",
+               Salary = 1900,
+               Status = false
+            },
+            new Employee()
+            {
+                ID = 6,
+                FullName = "Kiều Kiên",
+               Salary = 400,
                Status = true
             }
         };
@@ -39,10 +60,12 @@ namespace AjaxAspnetMVC.Controllers
             return View();
         }
         [HttpGet]
-        public JsonResult GetData()
-        {        
+        public JsonResult GetData(int page, int pageSize =3)
+        {
+            var model = listEmployeee.Skip((page - 1) * pageSize).Take(pageSize);
+            int totalaRecord = listEmployeee.Count();
             return Json(new { 
-            data = listEmployeee,
+            data = model,
             status =true
             },JsonRequestBehavior.AllowGet);
         }

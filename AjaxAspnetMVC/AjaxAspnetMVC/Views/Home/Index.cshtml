@@ -3,6 +3,7 @@
 }
 @section scripts {
     <script src="~/Scripts/plugins/mustache.min.js"></script>
+    <script src="~/Scripts/plugins/jquery.twbsPagination.min.js"></script>
     <script src="~/Scripts/controller/homeController.js"></script>
 }
 <table class="table table-hover">
@@ -17,6 +18,9 @@
     <tbody id="tblData">
     </tbody>
 </table>
+<div class="pagination" id="pagination">
+
+</div>
 <script id="data-template" type="x-tmpl-mustache">
     <tr>
         <td>{{ID}}</td>

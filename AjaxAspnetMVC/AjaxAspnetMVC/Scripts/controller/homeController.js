@@ -1,4 +1,7 @@
-﻿var homeController = {
+﻿var homeConfig = {
+    pageSize = 3
+};
+var homeController = {
     init: function () {
         homeController.loadData();            
     },
@@ -49,11 +52,21 @@
                             Status: item.Status == true ? "<span class=\"label label-success\">Actived</span>" : "<span class=\"label label-danger\">Lock</span>"
                         });
                     });
-                    $('#tblData').html(htmlData);
+                    $('#tblData').html(htmlData);                   
                     homeController.registerEvent();
                 }
             }
         })
+    },
+    paging: function (totalRecord, callBack) {
+        var totalPages = Math.ceil(totalRecord / pageSize);
+        $('#pagination').twbsPagination({
+            totalPages: 35,
+            visiblePages: 7,
+            onPageClick: function (event, page) {
+                $('#page-content').text('Page ' + page);
+            }
+        });
     }
 }
 homeController.init();
