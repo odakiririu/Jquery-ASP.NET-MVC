@@ -10,7 +10,7 @@ namespace AjaxAspnetMVC.Controllers
 {
     public class HomeController : Controller
     {
-        List<Employee> listEmployeee = new List<Employee>()
+        List<Employee> listEmployee = new List<Employee>()
         {
             new Employee()
             {
@@ -53,6 +53,20 @@ namespace AjaxAspnetMVC.Controllers
                 FullName = "Kiều Kiên",
                Salary = 400,
                Status = true
+            },
+            new Employee()
+            {
+                ID = 6,
+                FullName = "Nguyễn Văn A",
+               Salary = 1900,
+               Status = false
+            },
+            new Employee()
+            {
+                ID = 7,
+                FullName = "Văn B",
+               Salary = 1900,
+               Status = true
             }
         };
         public ActionResult Index()
@@ -60,14 +74,15 @@ namespace AjaxAspnetMVC.Controllers
             return View();
         }
         [HttpGet]
-        public JsonResult GetData(int page, int pageSize =3)
+        public JsonResult GetData(int page, int pageSize =4)
         {
-            var model = listEmployeee.Skip((page - 1) * pageSize).Take(pageSize);
-            int totalaRecord = listEmployeee.Count();
-            return Json(new { 
-            data = model,
-            status =true
-            },JsonRequestBehavior.AllowGet);
+            var model = listEmployee.Skip((page - 1) * pageSize).Take(pageSize);
+            int totalaRecord = listEmployee.Count;
+            return Json(new {
+                data = model,
+                total = totalaRecord,
+                status = true
+            }, JsonRequestBehavior.AllowGet); ;
         }
 
        [HttpPost]
@@ -75,7 +90,7 @@ namespace AjaxAspnetMVC.Controllers
         {
             JavaScriptSerializer serializer = new JavaScriptSerializer();
             Employee employee = serializer.Deserialize<Employee>(model);            
-            var entity = listEmployeee.Single(x => x.ID == employee.ID);
+            var entity = listEmployee.Single(x => x.ID == employee.ID);
             entity.Salary = employee.Salary;
             return Json(new
             {

@@ -1,6 +1,7 @@
 ﻿var homeConfig = {
-    pageSize = 3
-};
+    pageSize: 3,
+    pageIndex:1 
+}
 var homeController = {
     init: function () {
         homeController.loadData();            
@@ -37,6 +38,10 @@ var homeController = {
     loadData: function () {
         $.ajax({
             url: '/Home/GetData',
+            data: {
+                page: homeConfig.pageIndex,
+                pageSize: homeConfig.pageSize
+            },
             type: 'GET',
             dataType: 'json',
             success: function (respone) {
@@ -52,19 +57,23 @@ var homeController = {
                             Status: item.Status == true ? "<span class=\"label label-success\">Actived</span>" : "<span class=\"label label-danger\">Lock</span>"
                         });
                     });
-                    $('#tblData').html(htmlData);                   
+                    $('#tblData').html(htmlData);
+                    homeController.paging(respone.total, function () {
+                        homeController.loadData();
+                    });
                     homeController.registerEvent();
                 }
             }
         })
     },
     paging: function (totalRecord, callBack) {
-        var totalPages = Math.ceil(totalRecord / pageSize);
+        var totalPage = Math.ceil(totalRecord / homeConfig.pageSize);
         $('#pagination').twbsPagination({
-            totalPages: 35,
-            visiblePages: 7,
+            totalPages: totalPage,
+            visiblePages: 5,
             onPageClick: function (event, page) {
-                $('#page-content').text('Page ' + page);
+                homeConfig.pageIndex = page;
+                setTimeout(callBack, 200);
             }
         });
     }
