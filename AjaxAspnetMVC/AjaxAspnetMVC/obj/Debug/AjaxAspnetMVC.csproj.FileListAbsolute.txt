@@ -105,8 +105,15 @@ D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspne
 D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\Newtonsoft.Json.xml
 D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\Antlr3.Runtime.pdb
 D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.pdb
 D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.csprojAssemblyReference.cache
 D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.csproj.CoreCompileInputs.cache
 D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.csproj.CopyComplete
-D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.dll
-D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\obj\Debug\AjaxAspnetMVC.pdb
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\EntityFramework.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\EntityFramework.SqlServer.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\EntityFramework.xml
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\EntityFramework.SqlServer.xml
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\Data.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\Data.pdb
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\AjaxAspnetMVC\bin\Data.dll.config

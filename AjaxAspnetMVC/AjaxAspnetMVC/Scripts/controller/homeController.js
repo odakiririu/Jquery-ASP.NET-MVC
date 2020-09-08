@@ -14,6 +14,16 @@ var homeController = {
                 homeController.updateSalary(id, value);
             }
         });
+        $('#btnAddNew').off('click').on('click', function () {
+            $('#modalAddUpdate').modal('show');
+            homeController.resetForm();
+        });
+    }, 
+    resetForm: function () {
+        $('#hideID').val('0');
+        $('#txtName').val('');
+        $('#txtSalary').val(0);
+        $('#chkStatus').prop('checked',true);
     },
     updateSalary: function (id, value) {
         var data = {
@@ -27,10 +37,10 @@ var homeController = {
             data: { model: JSON.stringify(data) },
             success: function (respone) {
                 if (respone.status) {
-                    alert("Successed");
+                    alert("Update Salary success!!!");
                 }
                 else {
-                    alert("Update Fail")
+                    alert("Update Fail !!!")
                 }
             }
         })

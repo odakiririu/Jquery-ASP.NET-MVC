@@ -1,0 +1,13 @@
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\Data.dll.config
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\Data.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\Data.pdb
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\EntityFramework.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\EntityFramework.xml
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\obj\Debug\Data.csproj.CopyComplete
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\obj\Debug\Data.dll
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\obj\Debug\Data.pdb
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\obj\Debug\Data.Migrations.CreateDB.resources
+D:\Lập trình C Sharp\Jquery Ajax ASP dot NET MVC\Jquery-ASP.NET-MVC\AjaxAspnetMVC\Data\obj\Debug\Data.csproj.GenerateResource.cache
